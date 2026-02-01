@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="dashboard-box">
+    <h2>Welcome, {{ user }} 👋</h2>
+
+    <div class="card-container">
+        <div class="card">
+            <h3>📘 Quizzes</h3>
+            <p>Attempt quizzes and earn points</p>
+            <a href="/quiz">Start Quiz</a>
+        </div>
+
+        <div class="card">
+            <h3>🏆 Leaderboard</h3>
+            <p>Check top performers</p>
+            <a href="/leaderboard">View</a>
+        </div>
+
+        <div class="card">
+            <h3>🚪 Logout</h3>
+            <p>End your session safely</p>
+            <a href="/logout" class="logout-btn">Logout</a>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
