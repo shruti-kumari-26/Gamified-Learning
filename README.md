@@ -13,7 +13,7 @@ A web-based gamified learning platform that makes studying interactive and fun.
 - Python
 - Flash
 - SQlite
-- , Jinja2
+- Jinja2
 
 ## Live Demo
 https://shruti-kumari-26.github.io/Gamified-Learning/
